@@ -228,9 +228,8 @@ The repository includes a simple CI workflow at:
 It runs `pytest` on pushes and pull requests for multiple Python versions.
 In GitHub, you can enable a status badge and add it here, for example:
 
-```markdown
 ![CI](https://github.com/Waltberry/llm-pilot-playbook-dashboard/actions/workflows/ci.yml/badge.svg)
-```
+
 
 ---
 
