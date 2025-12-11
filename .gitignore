@@ -1,0 +1,87 @@
+﻿# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+env.bak/
+pip-wheel-metadata/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Python tools
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.pid
+*.seed
+*.sqlite
+*.db
+
+# Streamlit
+.streamlit/
+
+# Local config / secrets
+.env
+.env.* 
+secrets.* 
+credentials.json
+
+# Spark / delta / data / local runtime
+spark-warehouse/
+spark-warehouse/*
+*.snmprec
+*.parquet
+*.delta
+*.csv
+*.tsv
+
+# Node / frontend (if frontend appears)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# GitHub actions / CI artifacts (keep YAML but ignore artifacts)
+.github/actions/*/dist/
+.github/workflows/*.local
+
+# Misc
+coverage/
+dist/
+tmp/
+temp/
+.cache/
+
+# Images / large docs you might want to keep - remove these lines if you DO want them tracked
+# docs/images/
+# docs/report.png
