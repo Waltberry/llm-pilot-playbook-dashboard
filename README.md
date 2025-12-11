@@ -1,3 +1,5 @@
+![CI](https://github.com/Waltberry/llm-pilot-playbook-dashboard/actions/workflows/ci.yml/badge.svg)
+
 # LLM Pilot Playbook Dashboard
 
 A small, opinionated dashboard for **LLM pilot conversations** between technical teams and business stakeholders.
@@ -227,8 +229,6 @@ The repository includes a simple CI workflow at:
 
 It runs `pytest` on pushes and pull requests for multiple Python versions.
 In GitHub, you can enable a status badge and add it here, for example:
-
-![CI](https://github.com/Waltberry/llm-pilot-playbook-dashboard/actions/workflows/ci.yml/badge.svg)
 
 
 ---
